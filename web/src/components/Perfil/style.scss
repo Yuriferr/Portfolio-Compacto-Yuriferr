@@ -1,0 +1,74 @@
+.perfil{
+    .titulo{
+        display: flex;
+        justify-content: space-between;
+        div{
+            font-size: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+        }
+    }
+
+    .descricao{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        div{
+            h1{
+                text-align: left;
+                white-space: nowrap;
+            }
+            .borda{
+                margin-top: 5px;
+                margin-bottom: 20px;
+                width: 100%;
+                height: 2px;
+                border-radius: 20px;
+                background-color: white;
+            }
+            span{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .sobre{
+                font-size: 0.8rem;
+                text-align: justify;
+            }
+            p{
+                font-size: 0.9rem;
+            }
+            div{
+                display: flex;
+                justify-content: space-around;
+                a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: white;
+                    padding: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                }
+                .linkedin{
+                    background-color: #0077B5;
+                }
+                .github{
+                    background-color: #171515;
+                }
+                .email{
+                    background-color: #D14836;
+                }
+            }
+        }
+    }
+}
